@@ -32,6 +32,20 @@
       <button class="btn btn--new">🔄 New game</button>
       <button class="btn btn--roll">🎲 Roll dice</button>
       <button class="btn btn--hold">📥 Hold</button>
+
+      <div class="modal hidden">
+        <div>
+          <button class="close-modal">&times;</button>
+        </div>
+        <h1>Game Instructions</h1>
+        <p>
+          Players take turns rolling a 🎲 as many times as they wish. To add
+          roll results to a running total players must click the 📥 Hold button.
+          Players will lose their current roll score if they roll a 1, first
+          player to 50 wins.
+        </p>
+      </div>
+      <div class="overlay hidden"></div>
     </main>
     <script src="js/script.js"></script>
   </body>
