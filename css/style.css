@@ -129,8 +129,11 @@ main {
   margin-right: 0.7rem;
 }
 
+.btn-modal {
+  top: 2rem;
+}
 .btn--new {
-  top: 4rem;
+  top: 20rem;
 }
 .btn--roll {
   top: 39.3rem;
